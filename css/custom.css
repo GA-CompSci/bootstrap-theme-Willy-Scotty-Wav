@@ -5,8 +5,8 @@ https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25
 606c38 - light green
 283618 - dark green
 fefae0 - cream
-dda15e - light brown
-bc6c25 - dark brown
+b36e20 - light brown
+68370b - dark brown
 *****/
 
 
@@ -18,17 +18,181 @@ body, p {
     
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Plus Jakarta Sans", sans-serif;
+h1, h2, h3, h4, h5, h6 
+.h1, .h2, .h3, .h4, .h5, .h6{
+        font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+
 /********************/
-/******* COLORS *****/
+/******* NAV ********/
 /********************/
 
+#mainNav.navbar-shrink{
+    background-color: #283618;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #b36e20;
+    font-family: "Moderustic", sans-serif; 
+    text-shadow: 
+        -1px -1px  black,
+         1px -1px  black,
+        -1px  1px  black,
+         1px  1px  black;
+        
+    font-weight: 3000;
+    font-size: 20px !important; 
+}  
+
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: #b36e20;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #fefae0 !important;
+}
+
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover{
+    color: #68370b;
+}
 /********************/
 /******* HERO *******/
 /********************/
 header.masthead{
     background: url(../img/hero.jpg);
+    width: 100%;
+    height: auto;
+    
+}
+
+.btn-primary{
+    background-color: #606c38;
+    border: 2px solid #fefae0;
+    color: #fefae0;
+}
+
+.btn-primary:hover{
+background-color: #fefae0;
+    border: 2px solid #606c38;
+    color: #606c38;
+}
+
+
+
+/********************/
+/******* COLORS *****/
+/********************/
+hr.divider{
+    background-color: #283618;
+}
+a.navbar-brand{
+    color: #606c38 !important;
+    font-size: 35px;
+    text-shadow: 3px 3px 3px black;
+}
+a.navbar-brand:hover{
+    color: #3f452a !important;
+    font-size: 35px;
+    text-shadow: 3px 3px 3px black;
+}
+
+header.masthead h1{
+    color:#b36e20;
+    text-shadow: 3px 3px 3px black;
+}
+
+header.masthead p{
+    font-weight: 400;
+    color: #606c38;
+    font-size: 25px;
+    text-shadow: 
+        -1px -1px  black,
+         1px -1px  black,
+        -1px  1px  black,
+         1px  1px  black;
+    
+}
+
+body a.nav-link{
+    color: #283618;
+    font-size: 20px;
+}
+
+section.bg-primary{
+    background-color: #68370b !important;
+}
+
+a.btn-xl{
+    background-color: #606c38;
+    border: 2px solid #fefae0;
+    color: #fefae0;
+}
+
+a.btn-xl:hover{
+    background-color: #fefae0;
+    border: 2px solid #606c38;
+    color: #606c38;
+}
+
+.text-primary{
+    color: #283618 !important; 
+}
+
+
+section.bg-secondary{
+    background-color: #606c38 !important;
+}
+
+p.text-muted{
+    color: black !important;
+}
+
+h2.text-white{
+    color: #fefae0 !important;
+}
+
+p.text-white-75{
+    color: #fefae0 !important;
+}
+
+h5.carousel-text{
+    color: white;
+}
+
+p.carousel-text{
+    color: white;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #68370b !important;
+}
+
+body {
+    background-color: #606c38;
+}
+
+h2.mt-0 {
+    color: #283618;
+}
+
+p.text-muted {
+    color: #283618 !important;
+}
+
+i.bi-laptop {
+    color: #283618 !important;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #283618 !important;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #fefae0 !important;
 }
